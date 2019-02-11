@@ -7,6 +7,6 @@ app.get('/', function (req, res) {
   res.send('go to /screensharingtest.html')
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(80, function () {
+  console.log('Example app listening on port 80!');
 });
