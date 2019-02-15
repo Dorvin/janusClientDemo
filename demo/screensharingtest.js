@@ -51,9 +51,9 @@ var server = null;
 
 if(window.location.protocol === 'http:')
 	// server = "http://" + window.location.hostname + ":8088/janus";
-	server = "http://15.164.10.66:8088/janus";
+	server = "http://54.180.40.126:8088/janus";
 else
-	server = "http://15.164.10.66:8088/janus";
+	server = "http://54.180.40.126:8088/janus";
 
 
 var janus = null;
